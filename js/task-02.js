@@ -7,8 +7,7 @@ const ingredients = [
   'Condiments',
 ];
 
-const ulCategories = document.querySelector("ul#ingredients");
-console.log(ulCategories)
+const ulCategories = document.querySelector("#ingredients");
 const elements = ingredients.map(ingredient => {
   const liEl = document.createElement('li');
   liEl.classList.add('item');
@@ -16,5 +15,4 @@ const elements = ingredients.map(ingredient => {
   return liEl;
 })
 
-console.log(elements)
 ulCategories.append(...elements)
