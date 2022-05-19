@@ -16,10 +16,13 @@ const images = [
 
 
 const galleryEl = document.querySelector('.gallery')
-galleryEl.style.listStyle = 'none';
-galleryEl.style.display = 'flex';
-galleryEl.style.flexWrap = 'wrap';
-galleryEl.style.justifyContent = 'space-evenly';
+galleryEl.style.cssText = `display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  `;
+
 
 
 const imageEl = images
