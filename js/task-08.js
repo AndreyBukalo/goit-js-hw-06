@@ -12,7 +12,8 @@ function onSubmit(event) {
     }
     else {
         const dataBase = { email: email.value, password: password.value };
-        console.log("Data-base ->",dataBase);
+        console.log("Data-base ->", dataBase);
+          event.currentTarget.reset();
     }
-    event.currentTarget.reset();
+  
     }

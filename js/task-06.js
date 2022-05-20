@@ -13,6 +13,7 @@ function hasBlur(event) {
         inputCurrent.classList.add('valid');
     }
     else {
+        inputCurrent.classList.remove("valid");
         inputCurrent.classList.add('invalid');
     }
 }
