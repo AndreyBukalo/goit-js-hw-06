@@ -24,7 +24,6 @@ galleryEl.style.cssText = `display: flex;
   `;
 
 
-
 const imageEl = images
   .map(
     (image) =>
